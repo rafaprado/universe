@@ -6,7 +6,6 @@ export class Router {
     404: "/pages/404.html"
   };
 
-
   add(route, filePath) {
     this._routes[route] = filePath;
   }
